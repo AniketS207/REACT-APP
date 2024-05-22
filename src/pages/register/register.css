@@ -1,0 +1,73 @@
+/* src/components/register/register.css */
+.login {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f2f5;
+}
+
+.loginWrapper {
+  width: 70%;
+  height: 70%;
+  display: flex;
+}
+
+.loginLeft,
+.loginRight {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.loginLogo {
+  font-size: 50px;
+  font-weight: 800;
+  color: #1877f2;
+}
+
+.loginDesc {
+  font-size: 24px;
+}
+
+.loginBox {
+  height: 400px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.loginInput {
+  height: 50px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.loginButton,
+.loginRegisterButton {
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #1877f2;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.loginButton:hover,
+.loginRegisterButton:hover {
+  background-color: #165db6;
+}
+
+.errorText {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
